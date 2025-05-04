@@ -10,7 +10,7 @@ This time around I've used wxFormBuilder to create a more native-looking GUI tha
 
 A feature that was challenging to add was a "progress bar" (actually, a completion percentage) that could be refreshed timely and that wouldn't cause the GUI to freeze as data from the WMP library is being read and loaded, so the user knows the program is still running and not stalled. (Some professional applications actually don't give the user that benefit when they run a command (like Wolfram Cloud, for example)).
 
-**Here are some snapshot that illustrate how the program works (these are test runs only):**
+**Here are some snapshots that illustrate how the program works (these are test runs only):**
 
 #### Updating iTunes from WMP (if WMP>iTunes → iTunes:=WMP)
 ![Screenshot 1](https://github.com/jrsousa2/Plays_Sync/blob/main/Snapshot2.png)
