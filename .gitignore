@@ -1,5 +1,6 @@
 .vscode
 __pycache__
+Forms/
 *.py
 *.pth
 *.exe
