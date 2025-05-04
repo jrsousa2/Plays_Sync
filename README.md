@@ -12,10 +12,10 @@ A feature that was challenging to add was a "progress bar" (actually, a completi
 
 **Here are some snapshot that illustrate how the program works: (these are test runs only)**
 
-#### Updating iTunes from WMP (if WMP>iTunes -> iTunes:=WMP)
+##### Updating iTunes from WMP (if WMP>iTunes -> iTunes:=WMP)
 ![Screenshot 1](https://github.com/jrsousa2/Plays_Sync/blob/main/Snapshot2.png)
 
-#### Updating WMP from iTunes (if iTunes>WMP -> WMP:=iTunes)
+##### Updating WMP from iTunes (if iTunes>WMP -> WMP:=iTunes)
 ![Screenshot 2](https://github.com/jrsousa2/Plays_Sync/blob/main/Snapshot3.png)
 
 Reason why not all files were updated is because these are snapshots of test runs, and I was careful not to update all the files.
