@@ -1,25 +1,26 @@
+/* CREATE MINIMAL ENVIRONMENT */
 /* CREATE A FOLDER */
-C:\Python>mkdir Python3.9-v1
+C:\Python>mkdir Python3.8-v1
 
 
-/* CREATE VIRT ENV (this will use Python 3.9) */
-C:\Python\Python39\python -m venv Python3.9-v1
+/* CREATE VIRT ENV (this will use Python 3.8) */
+C:\Python\Python39\python -m venv Python3.8-v1
 
 # ACTIVATE THE VIRT ENV CREATED (THE SHORTCUT IN THE PATH IS TO THE STANDARD)
-Python3.9-v1\Scripts\activate
+Python3.8-v1\Scripts\activate
 
 /* UPGRADE PIP BEFORE ANY PKG INSTALLS */
 /* USE BELOW TO AVOID AMBIGUOUS */
 C:\Python\Python39\python -m pip install --upgrade pip
 
 /* MOVE TO THE FOLDER */
-C:\Python>cd Python3.9-v1
+C:\Python>cd Python3.8-v1
 
 /* SELECT THE INTERPRETER */
-C:\Python\Python3.9-v1\Scripts\python.exe
+C:\Python\Python3.8-v1\Scripts\python.exe
 
 /* UPGRADE PIP */
-c:\python\python3.9-v1\scripts\python.exe -m pip install --upgrade pip
+c:\python\python3.8-v1\scripts\python.exe -m pip install --upgrade pip
 
 INSTALL: 
 pip install pandas cx_Freeze wxpython pywin32
