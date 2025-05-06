@@ -2,7 +2,8 @@
 
 This is an applet that lets the user sync the play counts of their iTunes and Windows Media Player libraries. 
 
-It will be made available on Gumroad (at a dirt cheap price) shortly. 
+It is now available on Gumroad (at a dirt cheap price). 
+[Check it out](https://jrsousa2.gumroad.com/l/Plays_Sync)
 
 Unlike others I've seen this one runs very fast, because it relies on the iTunes library XML file, which is much faster to load than scanning the entire iTunes music database. Unfortunately there is no such file for WMP, but reading the WMP library is a little faster anyway.
 

@@ -1,0 +1,12 @@
+pyinstaller --noconsole --onefile --strip --icon=D:\Python\Plays_Sync\dist\icon.ico --paths=D:\Python\iTunes --paths=D:\Python\WMP Main.py
+
+--icon=your_icon.ico
+
+# EXCLUDING MODULES
+pyinstaller --onefile --strip --exclude-module=pandas --exclude-module=xml.etree.ElementTree --exclude-module=urllib.parse --exclude-module=os.path --exclude-module=struct --exclude-module=binascii --exclude-module=Read_PL Main.py
+
+# CHECK CONTENTS OF THE .exe
+pyi-archive_viewer Main.exe
+
+# CHECK DEPENDENCIES
+pyi-bindepend Main.exe

@@ -1,0 +1,2 @@
+from command line run:
+python D:\Python\Plays_Sync\setup.py build
