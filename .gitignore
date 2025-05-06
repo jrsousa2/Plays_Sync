@@ -8,4 +8,5 @@ Forms/
 *.dat
 save*
 Save*
+dist/
 
