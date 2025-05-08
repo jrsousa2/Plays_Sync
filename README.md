@@ -18,6 +18,8 @@ A feature that was challenging to add was a "progress bar" (actually, a completi
 
 #### Updating WMP from iTunes (if iTunes>WMP → WMP:=iTunes)
 ![Screenshot 2](https://raw.githubusercontent.com/jrsousa2/Plays_Sync/main/Snapshot3.png)
+<img src="https://raw.githubusercontent.com/jrsousa2/Plays_Sync/main/Snapshot3.png" width="505"/>
+
 
 Reason why not all files were updated is because these are snapshots of test runs, and I was careful to not update all the files.
 
