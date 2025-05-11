@@ -1,3 +1,9 @@
+# ACTIVATE THE VIRT ENV CREATED (THE SHORTCUT IN THE PATH IS TO THE STANDARD)
+C:\Python\Python3.8-v1\Scripts\activate
+
+/* THIS IS THE RIGHT THE INTERPRETER */
+C:\Python\Python3.8-v1\Scripts\python.exe
+
 pyinstaller --noconsole --onefile --strip --icon=D:\Python\Plays_Sync\dist\icon.ico --paths=D:\Python\iTunes --paths=D:\Python\WMP Main.py
 
 --icon=your_icon.ico
