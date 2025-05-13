@@ -15,7 +15,7 @@ This time around I've used wxFormBuilder to create a more native-looking GUI tha
 A feature that was challenging to add was a "progress bar" (actually, a completion percentage) that could be refreshed timely and that wouldn't cause the GUI to freeze as data from the WMP library is being read and loaded, so the user knows the program is still running and not stalled. (Some professional applications actually don't give the user that benefit when they run a command (like Wolfram Cloud, for example)). This is only a problem for users who have too many music files anyway.
 
 **Here are some snapshots that illustrate how the program works (these are test runs only):**<br>
-(Please note Github can be terrible at managing hyperlinks, so don't blame me if the links fail -- they can be viewed above anyway).
+(Please note Github can be terrible at managing hyperlinks, so don't blame me if the links fail -- they can be viewed above anyway). Even better, you can run the trial version, which is free and available right here under releases (right frame).
 
 #### Updating iTunes from WMP (if WMP>iTunes → iTunes:=WMP)
 ![Screenshot 1](https://raw.githubusercontent.com/jrsousa2/Plays_Sync/main/Snapshot2.png)
