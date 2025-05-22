@@ -1,3 +1,4 @@
+# A dummy code just to force Github to classify this repo as a Python type
 from cx_Freeze import setup, Executable
  
 # Paths to include
