@@ -1,16 +1,23 @@
-# ACTIVATE THE VIRT ENV CREATED (THE SHORTCUT IN THE PATH IS THE STANDARD)
+# ACTIVATE THE VIRT ENV CREATED (THE SHORTCUT IN THE PATH IS TO THE STANDARD)
 C:\Python\Python3.8-v1\Scripts\activate
 
-/* THIS IS THE RIGHT INTERPRETER */
+/* THIS IS THE RIGHT THE INTERPRETER */
 C:\Python\Python3.8-v1\Scripts\python.exe
 
-pyinstaller --noconsole --onefile --strip --icon=D:\Python\Plays_Sync\dist\icon.ico --paths=D:\Python\iTunes --paths=D:\Python\WMP Main.py
+cd D:\Python\Plays_Sync
+
+pyinstaller --noconsole --onefile --strip --icon=D:\Python\Plays_Sync\dist\icon.ico --paths=D:\Python\iTunes\Modules --paths=D:\Python\WMP Main.py --name=WMP_iTunes_SyncPlays
+
+
+pyinstaller --noconsole --onefile --strip --icon=D:\Python\Plays_Sync\dist\icon.ico --paths=D:\Python\iTunes\Modules --paths=D:\Python\WMP Main_trial.py
+
+--icon=your_icon.ico
 
 # EXCLUDING MODULES
 pyinstaller --onefile --strip --exclude-module=pandas --exclude-module=xml.etree.ElementTree --exclude-module=urllib.parse --exclude-module=os.path --exclude-module=struct --exclude-module=binascii --exclude-module=Read_PL Main.py
 
 # CHECK CONTENTS OF THE .exe
-pyi-archive_viewer Main.exe
+pyi-archive_viewer WMP_iTunes_SyncPlays_Trial.exe >  D:\Python\Trial\dist\test.txt
 
 # CHECK DEPENDENCIES
-pyi-bindepend Main.exe
+pyi-bindepend D:\Python\Trial\dist\WMP_iTunes_SyncPlays_Trial.exe
