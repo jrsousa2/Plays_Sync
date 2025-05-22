@@ -14,7 +14,7 @@ This time around I've used wxFormBuilder to create a more native-looking GUI tha
 
 A feature that was challenging to add was a "progress bar" (actually, a completion percentage) that could be refreshed timely and that wouldn't cause the GUI to freeze as data from the WMP library is being read and loaded, so the user knows the program is still running and not stalled. (Some professional applications actually don't give the user that benefit when they run a command (like Wolfram Cloud, for example)). This is only a problem for users who have too many music files anyway.
 
-**Here is a snapshot that illustrate how the program works (these are test runs only):**<br>
+**Here is a snapshot that illustrates how the program works:**<br>
 (Please note Github can be terrible at managing hyperlinks, so don't blame me if the links fail -- they can be viewed above anyway). Even better, you can run the trial version, which is free and available right here under Releases (right frame).
 
 #### Current version:
