@@ -8,7 +8,7 @@ It is now available on Gumroad (at a dirt cheap price).
 A trial version has been added to this repo as well.<br>
 [https://github.com/jrsousa2/Plays_Sync/releases/tag/v1.1.0](https://github.com/jrsousa2/Plays_Sync/releases/tag/v1.1.0)
 
-Unlike others I've seen this one runs very fast, because it relies on the iTunes library XML file, which is much faster to load than scanning the entire iTunes music database. Unfortunately there is no such file for WMP, but reading the WMP library is a little faster anyway.
+Unlike others I've seen this one runs very fast, because it relies on the iTunes library XML file, which is much faster to load than scanning the entire iTunes music database. Unfortunately there is no such file for WMP, but reading the WMP library is a little faster anyway. Speed performance is more critical for very large music collections.
 
 This time around I've used wxFormBuilder to create a more native-looking GUI than the first applet I created, which used TkInter. 
 
